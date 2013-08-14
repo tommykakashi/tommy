@@ -1,9 +1,20 @@
 ---
 layout: default
-title: My Blog
+title: TommyKakashi's Blog
 ---
 <h2>{{ page.title }}</h2>
-<p>The latest articles</p>
+<p>Welcome!</p>
+<div id="entrance">
+	<ul>
+		<li>
+			<a class="core-nav icon-quill-2" href="/blog" title="TommyKakashi - Blog"></a>
+		</li>
+		<li>
+			<a class="core-nav icon-info-2" href="/about.html" title="TommyKakashi - About"></a>
+		</li>
+	</ul>
+</div>
+
 <ul id="posts" class="index">
 	{% for post in site.posts %}
 　　　　<li>
