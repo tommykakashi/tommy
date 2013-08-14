@@ -6,7 +6,7 @@ title: "TommyKakashi's Blog"
 {% capture latest_post_title_with_proper_escaping %}{{ latest_post.title | xml_escape }}{% endcapture %}
 
 <div id="post">
-  <h1><a href="{{ latest_post.url }}" title="{{ latest_post_title_with_proper_escaping }}">{{ latest_post_title_with_proper_escaping }}</a></h1>
+  <h1><a href="{{ site.baseurl }}{{ latest_post.url }}" title="{{ latest_post_title_with_proper_escaping }}">{{ latest_post_title_with_proper_escaping }}</a></h1>
 
   {% if latest_post.date != null %}
     <span class="published_on">
@@ -25,8 +25,8 @@ title: "TommyKakashi's Blog"
   {{ latest_post.content }}
 
   <div class="post-footer">
-    <a href="{{ latest_post.url }}" title="{{ latest_post_title_with_proper_escaping | xml_escape }}">permalink</a> |
-    <a href="{{ latest_post.url }}/#comments" title="{{ latest_post_title_with_proper_escaping }} -- Comments">comments</a> | 
+    <a href="{{ site.baseurl }}{{ latest_post.url }}" title="{{ latest_post_title_with_proper_escaping | xml_escape }}">permalink</a> |
+    <a href="{{ site.baseurl }}{{ latest_post.url }}/#comments" title="{{ latest_post_title_with_proper_escaping }} -- Comments">comments</a> | 
   </div>
 </div>
 

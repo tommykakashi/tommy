@@ -13,4 +13,4 @@ He suggests you to read his [blog] first.
 Tommy holds a degree in Network Engineering from the Xi'an Petroleum University since 2009.
 He currently live in Xi'an, Shaanxi with his wife.
 
-[blog]: /blog
+[blog]: /tommy/blog
