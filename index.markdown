@@ -1,5 +1,6 @@
 ---
 layout: default
+body_id: homepage
 title: TommyKakashi's Blog
 ---
 <h2>{{ page.title }}</h2>
