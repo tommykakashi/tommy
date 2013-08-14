@@ -33,7 +33,7 @@ title: "TommyKakashi's Blog"
 <div id="archive">
   <h1><a name="archive" href="#archive" title="Blog Archive">Archive</a></h1>
 
-  <p>Now that you've whetted your appetite with the <a href="{{ latest_post.url }}" title="{{ latest_post.post_title_label }}{{ latest_post_title_with_proper_escaping }}">most recent post</a>, perhaps you'd care to dig into the archive.</p>
+  <p>Now that you've whetted your appetite with the <a href="{{ site.baseurl }}{{ latest_post.url }}" title="{{ latest_post.post_title_label }}{{ latest_post_title_with_proper_escaping }}">most recent post</a>, perhaps you'd care to dig into the archive.</p>
 
   <ul class="posts">
     {% for post in site.posts %}
