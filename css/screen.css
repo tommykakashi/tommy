@@ -196,7 +196,7 @@ a.core-nav:hover {
   position: relative;
   width: 780px;
 }
-
+/*
 #entrance {
 	position: absolute;
 	top: 50%;
@@ -209,16 +209,20 @@ a.core-nav:hover {
 	width: 780px;
 	height: 100px;
 }
-
+*/
 #entrance ul.centerUL{
-	margin: 2px auto;
-	line-height: 1.4;
-}
-.centerUL li{
-	display: inline;
+	margin: 20% 0 0;
+	width: 100%;
 	text-align: center;
 }
-
+.centerUL li{
+	display: inline-block;
+	position: relative;
+	list-style: none;
+	text-align: center;
+	white-space: nowrap;
+}
+/*
 #entrance li{
 	list-style-type: none;
 	float: left;
@@ -230,7 +234,7 @@ a.core-nav:hover {
 #entrance li:first-child{
 	margin-left: 0;
 }
-
+*/
 .published_on {
 	margin-bottom: 1em;
 	font-size: .8em;
