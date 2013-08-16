@@ -210,6 +210,15 @@ a.core-nav:hover {
 	height: 100px;
 }
 
+#entrance ul.centerUL{
+	margin: 2px auto;
+	line-height: 1.4;
+}
+.centerUL li{
+	display: inline;
+	text-align: center;
+}
+
 #entrance li{
 	list-style-type: none;
 	float: left;
