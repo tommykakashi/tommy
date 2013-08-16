@@ -213,6 +213,8 @@ a.core-nav:hover {
 #entrance ul.centerUL{
 	position: absolute;
 	width: 100%;
+	top: 40%
+	vertical-align: middle;
 	text-align: center;
 }
 .centerUL li{
