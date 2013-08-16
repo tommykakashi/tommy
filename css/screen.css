@@ -211,7 +211,7 @@ a.core-nav:hover {
 }
 */
 #entrance ul.centerUL{
-	margin: 20% 0 0;
+	position: absolute;
 	width: 100%;
 	text-align: center;
 }
