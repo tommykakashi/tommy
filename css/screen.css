@@ -224,6 +224,7 @@ a.core-nav:hover {
 	float: left;
 	margin-left: 104px;
 	font-size: 72px;
+	text-align: center;
 }
 
 #entrance li:first-child{
