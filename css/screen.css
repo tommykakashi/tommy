@@ -204,6 +204,7 @@ a.core-nav:hover {
 
 #entrance ul{
 	position: absolute;
+	vertical-align: middle;
 	top: -50px;
 	width: 780px;
 	height: 100px;
